@@ -134,3 +134,4 @@ file-toolkit/
 - 提交 [Issue](../../issues) 反馈 bug 或建议
 - 在 Discussions 中参与功能讨论
 - 提交 Pull Request(请先阅读 [`docs/AGENTS.md`](./docs/AGENTS.md) 了解协作规范)
+- 🚧 **新队员?** → 看 [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md),从环境搭建到 M1 任务清单,手把手教程

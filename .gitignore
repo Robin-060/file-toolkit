@@ -15,8 +15,8 @@ dist-ssr
 
 # ========== Rust / Tauri ==========
 # 编译产物(可达数 GB,绝对不能提交)
-src-tauri/target/
-src-tauri/Cargo.lock
+target/
+Cargo.lock
 # Tauri 构建输出
 src-tauri/gen/schemas/
 
