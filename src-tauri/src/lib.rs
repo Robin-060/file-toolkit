@@ -12,6 +12,9 @@ pub fn run() {
         .plugin(tauri_plugin_opener::init())
         .invoke_handler(tauri::generate_handler![
             commands::greet,
+            common::dependency::check_dependency,
+            common::dependency::check_all_dependencies,
+            common::dependency::clear_dependency_cache,
             worker::cancel_batch,
         ])
         .run(tauri::generate_context!())
